@@ -1,485 +1,567 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="Description for main">
     <title>Home Page</title>
-  <link href="./assets/css/app.e766c1dc5dc3917ca4cb.css" rel="stylesheet"></head>
-  <body class="body-main">
-    <div class="wrapper">
-      <!-- begin header -->
-      <header class="header">
+    <link href="./assets/css/app.e766c1dc5dc3917ca4cb.css" rel="stylesheet">
+</head>
+<body class="body-main">
+<div class="wrapper">
+    <!-- begin header -->
+    <header class="header">
         <div class="container">
-          <div class="row row--v-center row--jcsb">
-            <div class="logo header__logo"><img src="./assets/img/logo.svg"></div>
-            <div class="header__mob row--jcsb">
-              <nav class="menu header__menu">
-                <ul class="menu__list">
-                  <li class="menu__item"><a class="menu__link" href="#">Условия акции</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Тарифы</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">О провайдере</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Отзывы</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">FAQ</a></li>
+            <div class="row row--v-center row--jcsb">
+                <div class="logo header__logo"><img src="./assets/img/logo.svg" alt="logo"></div>
+                <div class="header__mob row--jcsb">
+                    <nav class="menu header__menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a class="menu__link" href="#">Условия акции</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Тарифы</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">О провайдере</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">Отзывы</a></li>
+                            <li class="menu__item"><a class="menu__link" href="#">FAQ</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="social header__social">
+                        <li class="social__item"><a class="social__link" href="#">
+                                <svg class="social__icon">
+                                    <use xlink:href="./assets/img/sprite.svg#icon-vk"></use>
+                                </svg>
+                            </a></li>
+                        <li class="social__item"><a class="social__link" href="#">
+                                <svg class="social__icon">
+                                    <use xlink:href="./assets/img/sprite.svg#icon-tg"></use>
+                                </svg>
+                            </a></li>
+                        <li class="social__item"><a class="social__link" href="#">
+                                <svg class="social__icon">
+                                    <use xlink:href="./assets/img/sprite.svg#icon-yt"></use>
+                                </svg>
+                            </a></li>
+                    </ul>
+                    <svg preserveAspectRatio="xMinYMin meet" class="header__mob-circle-top" viewBox="0 0 1080 1080"
+                         fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="540" cy="540" r="540" stroke="white" stroke-opacity="0.2"></circle>
+                    </svg>
+                </div>
+                <div class="hamburger hamburger--slider">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <main class="main"><!-- begin firstscreen -->
+        <div class="greeting">
+            <div class="split-bg">
+                <div class="split-bg__light split-bg__light--greeting split-bg__light--big split-bg__light--js">
+                    <svg preserveAspectRatio="xMinYMin meet" class="bg-circle-top-left" viewBox="0 0 1080 1080"
+                         fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle id="circle-bg-left" cx="540" cy="540" r="540" stroke="white"
+                                stroke-opacity="0.2"></circle>
+                    </svg>
+                    <div class="greeting__family"><img src="./assets/img/family.png" alt="family"></div>
+                </div>
+                <div class="split-bg__dark split-bg__dark--sm split-bg__dark--js">
+                    <svg preserveAspectRatio="xMinYMin meet" class="bg-circle-top-right" viewBox="0 0 840 840"
+                         fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle id="circle-bg-right" cx="420" cy="420" r="420" stroke="white"
+                                stroke-opacity="0.2"></circle>
+                    </svg>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="greeting__left">
+                        <h1 class="visibility-hidden">Weba - интернет провайдер</h1>
+                        <div class="greeting-intro greeting__intro">
+                            <p class="greeting-intro__text greeting-intro__text--top greeting-intro__js-top"><span
+                                        class="greeting-intro__accent">W</span><span
+                                        class="greeting-intro__accent">E</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span>
+                            </p>
+                            <p class="greeting-intro__text greeting-intro__text--offset greeting-intro__js-bottom"><span
+                                        class="greeting-intro__accent">B</span><span
+                                        class="greeting-intro__accent">A</span><span>c</span><span>k</span></p>
+                            <svg class="greeting__ray">
+                                <use xlink:href="./assets/img/sprite.svg#icon-ray"></use>
+                            </svg>
+                        </div>
+                        <p class="greeting__about">Высокоскоростной интернет 4 месяца <br> <span>по 250 руб</span></p>
+                        <p class="condition">
+                            В акции участвуют те квартиры Московского региона СПб, которые уже были подключены к сети
+                            WEBA ранее. Чтобы воспользоваться предложением, необходимо единовременно ввнести 1000 рублей
+                            на счет в качестве первогго депозита
+
+                        </p>
+                    </div>
+                    <div class="greeting__right">
+                        <div class="greeting__form">
+                            <form class="request" method="post" action="/">
+                                <fieldset class="request__wrap">
+                                    <div class="request__item">
+                                        <input class="request__input" type="text" placeholder="Фамилия Имя Отчество">
+                                    </div>
+                                    <div class="request__item">
+                                        <input class="request__input" type="text" placeholder="Номер телефона">
+                                    </div>
+                                    <div class="request__item">
+                                        <input class="request__input" type="text" placeholder="Ваш адрес">
+                                    </div>
+                                    <div class="request__item request__item-js">
+                                        <svg class="request__item-icon">
+                                            <use xlink:href="./assets/img/sprite.svg#icon-down"></use>
+                                        </svg>
+                                        <input class="request__input request__input-js" type="text"
+                                               placeholder="Откуда узнали о нас" disabled="disabled">
+                                        <ul class="list">
+                                            <li class="list__item" data-info="1">Реклама в интернете</li>
+                                            <li class="list__item" data-info="2">Наружная реклама</li>
+                                            <li class="list__item" data-info="3">Табличка на двери</li>
+                                            <li class="list__item" data-info="4">Соседи</li>
+                                            <li class="list__item" data-info="5">Почтовая рассылка</li>
+                                            <li class="list__item" data-info="6">Реклама в лифтах</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn request__btn">Отправить</button>
+                                </fieldset>
+                            </form>
+                            <svg class="greeting__circle-text">
+                                <use xlink:href="./assets/img/sprite.svg#textcb"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="greeting__mobile-send">
+                <button class="btn btn--big js-form-open">Отправить заявку</button>
+            </div>
+        </div><!-- end firstscreen -->
+        <!-- begin advantages -->
+        <div class="advantages">
+            <div class="container">
+                <h2 class="title advantages__title">Воспользовавшись акцией Вы получите:</h2>
+                <div class="advantages__info advantages-info">
+                    <div class="advantages-info__item advantages-info__item--left">
+                        <svg class="advantages-info__icon-connect">
+                            <use xlink:href="./assets/img/sprite.svg#icon-free-connect"></use>
+                        </svg>
+                        <div class="advantages-info__block">
+                            <p class="advantages-info__title">Бесплатное подключение</p><span
+                                    class="advantages-info__text">и настройку устройств</span>
+                        </div>
+                    </div>
+                    <div class="advantages-info__item advantages-info__item--center">
+                        <svg class="advantages-info__icon-date">
+                            <use xlink:href="./assets/img/sprite.svg#icon-calendar"></use>
+                        </svg>
+                        <div class="advantages-info__block">
+                            <p class="advantages-info__title">4 первых месяца</p><span class="advantages-info__text"> интернета за 1000 рублей</span>
+                        </div>
+                    </div>
+                    <div class="advantages-info__item advantages-info__item--right">
+                        <svg class="advantages-info__icon-laptop">
+                            <use xlink:href="./assets/img/sprite.svg#icon-laptop"></use>
+                        </svg>
+                        <div class="advantages-info__block">
+                            <p class="advantages-info__title">Безлимитный трафик</p><span class="advantages-info__text"> и высокую скорость соединения</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__wrap">
+                    <div class="slogan advantages__slogan">
+                        <p class="slogan__title">Ваша выгода - <span>наше приветствие</span></p>
+                        <p class="slogan__text">
+                            Weba не забывает своих абонентов! У нас комфортные условия стартового подключения не только
+                            для новых клиентов, но и для тех, кто решил вернуться
+
+
+                        </p>
+                    </div>
+                    <div class="advantages-count">
+                        <div class="advantages-count__item js-advantages-first"><span
+                                    class="advantages-count__iter">01</span>
+                            <p>Сообщите о повторном подключении к нашей сети, оставив заявку любым удобным способом.</p>
+                        </div>
+                        <div class="advantages-count__item js-advantages-second"><span
+                                    class="advantages-count__iter">02</span>
+                            <p>Внесите стартовую сумму и слудующие 4 месяца не думайте об оплате услуг!</p>
+                        </div>
+                        <div class="advantages-count__item js-advantages-third"><span
+                                    class="advantages-count__iter">03</span>
+                            <p>Ожидайте подключения интернета в течении трех рабочих дней. Наши монтажники проведут
+                                необходимые работы в удобное для вас время.</p>
+                        </div>
+                    </div>
+                    <div class="advantages__request">
+                        <button class="btn btn--big">Отправить заявку</button>
+                    </div>
+                    <svg class="advantages__circle" width="854" height="851" viewBox="0 0 854 851" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path id="advantages__circle"
+                              d="M853.5 425.5C853.5 660.219 662.551 850.5 427 850.5C191.449 850.5 0.5 660.219 0.5 425.5C0.5 190.781 191.449 0.5 427 0.5C662.551 0.5 853.5 190.781 853.5 425.5Z"
+                              stroke="#DADEE3"/>
+                    </svg>
+                </div>
+            </div>
+        </div><!-- end advantages -->
+        <!-- begin conditions -->
+        <div class="conditions">
+            <div class="container">
+                <h2 class="title conditions__title">Полные условия акции <span>“Welcome Back”</span>
+
+                </h2>
+                <ul class="conditions__list">
+                    <li class="conditions__item">Чтобы оформить заявку по данному предложению ваша квартира должна
+                        числиться <a href="#">в нашей базе как ранее подключенная</a></li>
+                    <li class="conditions__item">По завершению периода акции, автоматически подключается <a href="#">интернет-тариф
+                            “Планета”</a></li>
+                    <li class="conditions__item">Другие скидки на услуги интернета не действуют, пока активна данная
+                        акция
+                    </li>
+                    <li class="conditions__item">При переносе остатка средств с вашего счета у другого оператора связи,
+                        <a href="#">внесение стартовой суммы</a> по акции также необходимо
+                    </li>
+                    <li class="conditions__item">В случае расторжения договора в течении полугода с момента его
+                        подписания, со счета списывается неустойка в размере <a href="#">1500 рублей</a>
+
+                    </li>
                 </ul>
-              </nav>
-              <ul class="social header__social">
-                <li class="social__item"><a class="social__link" href="#">
-                    <svg class="social__icon">
-                      <use xlink:href="./assets/img/sprite.svg#icon-vk"></use>
-                    </svg></a></li>
-                <li class="social__item"><a class="social__link" href="#">
-                    <svg class="social__icon">
-                      <use xlink:href="./assets/img/sprite.svg#icon-tg"></use>
-                    </svg></a></li>
-                <li class="social__item"><a class="social__link" href="#">
-                    <svg class="social__icon">
-                      <use xlink:href="./assets/img/sprite.svg#icon-yt"></use>
-                    </svg></a></li>
-              </ul><svg preserveAspectRatio="xMinYMin meet" class="header__mob-circle-top" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle id="" cx="540" cy="540" r="540" stroke="white" stroke-opacity="0.2"></circle>
-</svg>
-            </div>
-            <div class="hamburger hamburger--slider">
-              <div class="hamburger-box">
-                <div class="hamburger-inner"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <!-- end header -->
-      <main class="main"><!-- begin firstscreen -->
-<div class="greeting">
-  <div class="split-bg">
-    <div class="split-bg__light split-bg__light--greeting split-bg__light--big split-bg__light--js"><svg preserveAspectRatio="xMinYMin meet" class="bg-circle-top-left" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle id="circle-bg-left" cx="540" cy="540" r="540" stroke="white" stroke-opacity="0.2"></circle>
-</svg>
-      <div class="greeting__family"><img src="./assets/img/family.png"></div>
-    </div>
-    <div class="split-bg__dark split-bg__dark--sm split-bg__dark--js"><svg preserveAspectRatio="xMinYMin meet" class="bg-circle-top-right" viewBox="0 0 840 840" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle id="circle-bg-right" cx="420" cy="420" r="420" stroke="white" stroke-opacity="0.2"></circle>
-</svg>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="greeting__left">
-        <h1 class="visibility-hidden">Weba - интернет провайдер</h1>
-        <div class="greeting-intro greeting__intro">
-          <p class="greeting-intro__text greeting-intro__text--top greeting-intro__js-top"><span class="greeting-intro__accent">W</span><span class="greeting-intro__accent">E</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span></p>
-          <p class="greeting-intro__text greeting-intro__text--offset greeting-intro__js-bottom"><span class="greeting-intro__accent">B</span><span class="greeting-intro__accent">A</span><span>c</span><span>k</span></p>
-          <svg class="greeting__ray">
-            <use xlink:href="./assets/img/sprite.svg#icon-ray"></use>
-          </svg>
-        </div>
-        <p class="greeting__about">Высокоскоростной интернет 4 месяца <br> <span>по 250 руб</span></p>
-        <p class="condition">
-          В акции участвуют те квартиры Московского региона СПб, которые уже были подключены к сети WEBA ранее. Чтобы воспользоваться предложением, необходимо единовременно ввнести 1000 рублей на счет в качестве первогго депозита
-          
-        </p>
-      </div>
-      <div class="greeting__right">
-        <div class="greeting__form">
-          <form class="request" method="post" action="/">
-            <fieldset class="request__wrap">
-              <div class="request__item">
-                <input class="request__input" type="text" placeholder="Фамилия Имя Отчество">
-              </div>
-              <div class="request__item">
-                <input class="request__input" type="text" placeholder="Номер телефона">
-              </div>
-              <div class="request__item">
-                <input class="request__input" type="text" placeholder="Ваш адрес">
-              </div>
-              <div class="request__item request__item-js">
-                <svg class="request__item-icon">
-                  <use xlink:href="./assets/img/sprite.svg#icon-down"></use>
+                <svg class="conditions__ray">
+                    <use xlink:href="./assets/img/sprite.svg#icon-ray"></use>
                 </svg>
-                <input class="request__input request__input-js" type="text" placeholder="Откуда узнали о нас" disabled="disabled">
-                <ul class="list">
-                  <li class="list__item" data-info="1">Реклама в интернете</li>
-                  <li class="list__item" data-info="2">Наружная реклама</li>
-                  <li class="list__item" data-info="3">Табличка на двери</li>
-                  <li class="list__item" data-info="4">Соседи</li>
-                  <li class="list__item" data-info="5">Почтовая рассылка</li>
-                  <li class="list__item" data-info="6">Реклама в лифтах</li>
-                </ul>
-              </div>
-              <button class="btn request__btn">Отправить</button>
-            </fieldset>
-          </form>
-          <svg class="greeting__circle-text">
-            <use xlink:href="./assets/img/sprite.svg#textcb"></use>
-          </svg>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="greeting__mobile-send">
-    <button class="btn btn--big js-form-open">Отправить заявку</button>
-  </div>
-</div><!-- end firstscreen -->
-<!-- begin advantages -->
-<div class="advantages">
-  <div class="container">
-    <h2 class="title advantages__title">Воспользовавшись акцией Вы получите:</h2>
-    <div class="advantages__info advantages-info">
-      <div class="advantages-info__item advantages-info__item--left">
-        <svg class="advantages-info__icon-connect">
-          <use xlink:href="./assets/img/sprite.svg#icon-free-connect"></use>
-        </svg>
-        <div class="advantages-info__block">
-          <p class="advantages-info__title">Бесплатное подключение</p><span class="advantages-info__text">и настройку устройств</span>
-        </div>
-      </div>
-      <div class="advantages-info__item advantages-info__item--center">
-        <svg class="advantages-info__icon-date">
-          <use xlink:href="./assets/img/sprite.svg#icon-calendar"></use>
-        </svg>
-        <div class="advantages-info__block">
-          <p class="advantages-info__title">4 первых месяца</p><span class="advantages-info__text"> интернета за 1000 рублей</span>
-        </div>
-      </div>
-      <div class="advantages-info__item advantages-info__item--right">
-        <svg class="advantages-info__icon-laptop">
-          <use xlink:href="./assets/img/sprite.svg#icon-laptop"></use>
-        </svg>
-        <div class="advantages-info__block">
-          <p class="advantages-info__title">Безлимитный трафик</p><span class="advantages-info__text"> и высокую скорость соединения</span>
-        </div>
-      </div>
-    </div>
-    <div class="advantages__wrap">
-      <div class="slogan advantages__slogan">
-        <p class="slogan__title">Ваша выгода - <span>наше приветствие</span></p>
-        <p class="slogan__text">
-          Weba не забывает своих абонентов! У нас комфортные условия стартового подключения не только для новых клиентов, но и для тех, кто решил вернуться
-          
-          
-        </p>
-      </div>
-      <div class="advantages-count">
-        <div class="advantages-count__item js-advantages-first"><span class="advantages-count__iter">01</span>
-          <p>Сообщите о повторном подключении к нашей сети, оставив заявку любым удобным способом.</p>
-        </div>
-        <div class="advantages-count__item js-advantages-second"><span class="advantages-count__iter">02</span>
-          <p>Внесите стартовую сумму и слудующие 4 месяца не думайте об оплате услуг!</p>
-        </div>
-        <div class="advantages-count__item js-advantages-third"><span class="advantages-count__iter">03</span>
-          <p>Ожидайте подключения интернета в течении трех рабочих дней. Наши монтажники проведут необходимые работы в удобное для вас время.</p>
-        </div>
-      </div>
-      <div class="advantages__request">
-        <button class="btn btn--big">Отправить заявку</button>
-      </div><svg class="advantages__circle" width="854" height="851" viewBox="0 0 854 851" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path id="advantages__circle" d="M853.5 425.5C853.5 660.219 662.551 850.5 427 850.5C191.449 850.5 0.5 660.219 0.5 425.5C0.5 190.781 191.449 0.5 427 0.5C662.551 0.5 853.5 190.781 853.5 425.5Z" stroke="#DADEE3"/>
-</svg>
-    </div>
-  </div>
-</div><!-- end advantages -->
-<!-- begin conditions -->
-<div class="conditions">
-  <div class="container">
-    <h2 class="title conditions__title">Полные условия акции <span>“Welcome Back”</span>
-      
-    </h2>
-    <ul class="conditions__list">
-      <li class="conditions__item">Чтобы оформить заявку по данному предложению ваша квартира должна числиться <a href="#">в нашей базе как ранее подключенная</a></li>
-      <li class="conditions__item">По завершению периода акции, автоматически подключается <a href="#">интернет-тариф “Планета”</a></li>
-      <li class="conditions__item">Другие скидки на услуги интернета не действуют, пока активна данная акция</li>
-      <li class="conditions__item">При переносе остатка средств с вашего счета у другого оператора связи, <a href="#">внесение стартовой суммы</a> по акции также необходимо</li>
-      <li class="conditions__item">В случае расторжения договора в течении полугода с момента его подписания, со счета списывается неустойка в размере <a href="#">1500 рублей</a>
-        
-      </li>
-    </ul>
-    <svg class="conditions__ray">
-      <use xlink:href="./assets/img/sprite.svg#icon-ray"></use>
-    </svg>
-  </div>
-</div><!-- end conditions -->
-<!-- begin shock -->
-<div class="shock">
-  <div class="split-bg">
-    <div class="split-bg__dark split-bg__dark--shock"></div>
-    <div class="split-bg__light split-bg__light--shock"></div>
-  </div>
-  <div class="container">
-    <div class="row shock__wrap">
-      <div class="shock__left">
-        <div class="shock__man"><img src="./assets/img/man-shoсk.png"></div>
-        <div class="greeting-intro greeting-intro--sm greeting-intro--shock">
-          <p class="greeting-intro__text greeting-intro__text--top shock__greeting-js-top"><span class="greeting-intro__accent">W</span><span class="greeting-intro__accent">E</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span></p>
-          <p class="greeting-intro__text greeting-intro__text--offset shock__greeting-js-bottom"><span class="greeting-intro__accent">B</span><span class="greeting-intro__accent">A</span><span>c</span><span>k</span></p>
-        </div>
-        <svg class="shock__ray">
-          <use xlink:href="./assets/img/sprite.svg#icon-ray-xs"></use>
-        </svg>
-      </div>
-      <div class="shock__right">
-        <div class="slogan shock__slogan">
-          <p class="slogan__title">Услуги от WEBA <span>выгодны всегда</span></p>
-          <p class="slogan__text shock__slogan-text">
-            Мы держим цены на все интернет-тарифы и предоставляем возможность значительной экономии средств, при оплате услуг периодами.
-            
-          </p>
-        </div>
-        <div class="shock__carousel card-stack">
-          <ul class="carousel card-list">
-            <li class="card carousel__item">
-              <div class="tariff row">
-                <div class="tariff__pic"><img src="./assets/img/galaxy.png" alt="Тариф Галактика"></div>
-                <div class="tariff__about"><a class="tariff__name" href="#">Тариф “Галактика”</a>
-                  <p class="tariff__speed">800 Мб/сек.</p>
-                  <p class="tariff__price">От 900 ₽ по абонементу</p>
-                  <p class="tariff__price-fixed">1050 руб/мес.</p>
-                </div>
-              </div>
-            </li>
-            <li class="card carousel__item">
-              <div class="tariff row">
-                <div class="tariff__pic"><img src="./assets/img/planet.png" alt="Тариф Планета"></div>
-                <div class="tariff__about"><a class="tariff__name" href="#">Тариф “Планета”</a>
-                  <p class="tariff__speed">300 Мб/сек.</p>
-                  <p class="tariff__price">От 600 ₽ по абонементу</p>
-                  <p class="tariff__price-fixed">750 руб/мес.</p>
-                </div>
-              </div>
-            </li>
-            <li class="card carousel__item">
-              <div class="tariff row">
-                <div class="tariff__pic"><img src="./assets/img/rocket.png" alt="Тариф Ракета"></div>
-                <div class="tariff__about"><a class="tariff__name" href="#">Тариф “Ракета12”</a>
-                  <p class="tariff__speed">100 Мб/сек.</p>
-                  <p class="tariff__price">От 400 ₽ по абонементу</p>
-                  <p class="tariff__price-fixed">550 руб/мес.</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <svg class="shock__circle-text">
-            <use xlink:href="./assets/img/sprite.svg#textcb"></use>
-          </svg>
-        </div>
-        <div class="row row--jcsb group-btn row--v-center">
-          <button class="slider-btn slider-btn--prev tarif-prev">
-            <svg>
-              <use xlink:href="./assets/img/sprite.svg#icon-slide-left"></use>
-            </svg>
-          </button>
-          <button class="slider-btn slider-btn--next tarif-next">
-            <svg>
-              <use xlink:href="./assets/img/sprite.svg#icon-slide-right"></use>
-            </svg>
-          </button><a class="group-btn__more link-more" href="#">Подробнее о тарифах
-            <svg class="link-more__icon">
-              <use xlink:href="./assets/img/sprite.svg#icon-more"></use>
-            </svg></a>
-        </div>
-      </div>
-    </div>
-  </div><svg class="shock__circle" width="854" height="851" viewBox="0 0 854 851" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path id="shock__circle" d="M853.5 425.5C853.5 660.219 662.551 850.5 427 850.5C191.449 850.5 0.5 660.219 0.5 425.5C0.5 190.781 191.449 0.5 427 0.5C662.551 0.5 853.5 190.781 853.5 425.5Z" stroke="white" stroke-opacity="0.2"/>
-</svg>
-</div><!-- end shock -->
-<!-- begin wait -->
-<div class="wait">
-  <div class="container">
-    <div class="wait__block">
-      <svg class="wait__block-icon">
-        <use xlink:href="./assets/img/sprite.svg#icon-dont-wait"></use>
-      </svg>
-      <h2 class="title wait__title">Не надо ждать!</h2>
-      <p class="wait__text">
-        Если у вас есть активные средства на счету у другого оператора связи и вы не хотите выжидать окончания оплаченных услуг прежде чем вернуться к WEBA, выход есть: мы перенесем ваш остаток (не более 1000 рублей) на новый счет, после предъявления личного кабинета вашего текущего провайдера
-        
-      </p><svg class="wait__circle wait__circle--left" width="545" height="543" viewBox="0 0 545 543" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path class="wait__circle-inner" d="M544.5 271.5C544.5 421.167 422.723 542.5 272.5 542.5C122.277 542.5 0.5 421.167 0.5 271.5C0.5 121.833 122.277 0.5 272.5 0.5C422.723 0.5 544.5 121.833 544.5 271.5Z" stroke="#DADEE3"/>
-</svg>
-<svg class="wait__circle wait__circle--center" width="545" height="543" viewBox="0 0 545 543" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path class="wait__circle-inner" d="M544.5 271.5C544.5 421.167 422.723 542.5 272.5 542.5C122.277 542.5 0.5 421.167 0.5 271.5C0.5 121.833 122.277 0.5 272.5 0.5C422.723 0.5 544.5 121.833 544.5 271.5Z" stroke="#DADEE3"/>
-</svg>
-<svg class="wait__circle wait__circle--right" width="545" height="543" viewBox="0 0 545 543" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path class="wait__circle-inner" d="M544.5 271.5C544.5 421.167 422.723 542.5 272.5 542.5C122.277 542.5 0.5 421.167 0.5 271.5C0.5 121.833 122.277 0.5 272.5 0.5C422.723 0.5 544.5 121.833 544.5 271.5Z" stroke="#DADEE3"/>
-</svg>
-      <div class="slider wait__slider">
-        <div class="slider__item">
-          <div class="slider__wrap">
-            <div class="slider__block">
-              <p class="slider__title">Станьте одним из клиентов Weba
-                <svg class="slider__title-icon">
-                  <use xlink:href="./assets/img/sprite.svg#icon-quote"></use>
-                </svg>
-              </p>
-              <p class="slider__text">
-                Если у вас есть активные средства на счету у другого оператора связи и вы не хотите выжидать окончания оплаченных услуг прежде чем вернуться к WEBA, выход есть: мы перенесем ваш остаток
-                
-              </p>
-              <p class="slider__name">Михаил Александрович</p>
             </div>
-            <div class="slider__pic"><img src="./assets/img/man.png"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="care wait__care">
-      <h3 class="title care__title">Нам не все равно</h3>
-      <div class="row care__row">
-        <div class="care__item">
-          <svg class="care__icon">
-            <use xlink:href="./assets/img/sprite.svg#icon-heart"></use>
-          </svg>
-          <p class="care__head">Без внимания не оставим</p>
-          <div class="care__text-wrap">
-            <p class="care__text">
-              Мы всегда на связи! По возникшим вопросам и предложения связывайтесь любым удобным способом: звонком, в чате на сайте, в Telegram
-              
-            </p>
-          </div>
-        </div>
-        <div class="care__item">
-          <svg class="care__icon">
-            <use xlink:href="./assets/img/sprite.svg#icon-sertificate"></use>
-          </svg>
-          <p class="care__head">За качество отвечаем</p>
-          <div class="care__text-wrap">
-            <p class="care__text">
-              Используя первоклассное оборудование, мы обеспечиваем линк в 10 Гбит/сек до каждого дома, распределяя до 1 Гбит/сек по абонентским портам
-              
-            </p>
-          </div>
-        </div>
-        <div class="care__item">
-          <svg class="care__icon">
-            <use xlink:href="./assets/img/sprite.svg#icon-chat"></use>
-          </svg>
-          <p class="care__head">Расскажем, что знаем</p>
-          <div class="care__text-wrap">
-            <p class="care__text">
-              Делимся полезной информацией, выпуская статьи и видеоролики, гтовы напрямую ответить на любой вопрос нашего профиля
-              
-            </p>
-          </div>
-        </div>
-        <div class="care__item">
-          <svg class="care__icon">
-            <use xlink:href="./assets/img/sprite.svg#icon-team"></use>
-          </svg>
-          <p class="care__head">Нужно больше? Предоставим</p>
-          <div class="care__text-wrap">
-            <p class="care__text">
-              Оказываем услуги IP-телефонии и телевидения, ремонта и обслуживания компьютеров, установки видеонаблюдения, домофонии
-              
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="wait__connect"><a class="btn btn--big" href="#">Подключиться по акции</a></div>
-    </div>
-  </div>
-</div><!-- end wait -->
-<!-- begin faq -->
-<div class="faq">
-  <div class="faq__wrapper">
-    <div class="container">
-      <div class="slogan">
-        <p class="slogan__title">Часто задаваемые <span>вопросы</span></p>
-        <svg class="slogan__ray">
-          <use xlink:href="./assets/img/sprite.svg#icon-ray-xs"></use>
-        </svg>
-      </div>
-      <div class="tabs faq__tabs">
-        <div class="tabs__item">
-          <p class="tabs__question" data-id="1">Как происходит подключение интернета?<span class="tabs__arrow">
+        </div><!-- end conditions -->
+        <!-- begin shock -->
+        <div class="shock">
+            <div class="split-bg">
+                <div class="split-bg__dark split-bg__dark--shock"></div>
+                <div class="split-bg__light split-bg__light--shock"></div>
+            </div>
+            <div class="container">
+                <div class="row shock__wrap">
+                    <div class="shock__left">
+                        <div class="shock__man"><img src="./assets/img/man-shoсk.png" alt="man-shoсk"></div>
+                        <div class="greeting-intro greeting-intro--sm greeting-intro--shock">
+                            <p class="greeting-intro__text greeting-intro__text--top shock__greeting-js-top"><span
+                                        class="greeting-intro__accent">W</span><span
+                                        class="greeting-intro__accent">E</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span>
+                            </p>
+                            <p class="greeting-intro__text greeting-intro__text--offset shock__greeting-js-bottom"><span
+                                        class="greeting-intro__accent">B</span><span
+                                        class="greeting-intro__accent">A</span><span>c</span><span>k</span></p>
+                        </div>
+                        <svg class="shock__ray">
+                            <use xlink:href="./assets/img/sprite.svg#icon-ray-xs"></use>
+                        </svg>
+                    </div>
+                    <div class="shock__right">
+                        <div class="slogan shock__slogan">
+                            <p class="slogan__title">Услуги от WEBA <span>выгодны всегда</span></p>
+                            <p class="slogan__text shock__slogan-text">
+                                Мы держим цены на все интернет-тарифы и предоставляем возможность значительной экономии
+                                средств, при оплате услуг периодами.
+
+                            </p>
+                        </div>
+                        <div class="shock__carousel card-stack">
+                            <ul class="carousel card-list">
+                                <li class="card carousel__item">
+                                    <div class="tariff row">
+                                        <div class="tariff__pic"><img src="./assets/img/galaxy.png"
+                                                                      alt="Тариф Галактика"></div>
+                                        <div class="tariff__about"><a class="tariff__name" href="#">Тариф
+                                                “Галактика”</a>
+                                            <p class="tariff__speed">800 Мб/сек.</p>
+                                            <p class="tariff__price">От 900 ₽ по абонементу</p>
+                                            <p class="tariff__price-fixed">1050 руб/мес.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="card carousel__item">
+                                    <div class="tariff row">
+                                        <div class="tariff__pic"><img src="./assets/img/planet.png" alt="Тариф Планета">
+                                        </div>
+                                        <div class="tariff__about"><a class="tariff__name" href="#">Тариф “Планета”</a>
+                                            <p class="tariff__speed">300 Мб/сек.</p>
+                                            <p class="tariff__price">От 600 ₽ по абонементу</p>
+                                            <p class="tariff__price-fixed">750 руб/мес.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="card carousel__item">
+                                    <div class="tariff row">
+                                        <div class="tariff__pic"><img src="./assets/img/rocket.png" alt="Тариф Ракета">
+                                        </div>
+                                        <div class="tariff__about"><a class="tariff__name" href="#">Тариф “Ракета12”</a>
+                                            <p class="tariff__speed">100 Мб/сек.</p>
+                                            <p class="tariff__price">От 400 ₽ по абонементу</p>
+                                            <p class="tariff__price-fixed">550 руб/мес.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <svg class="shock__circle-text">
+                                <use xlink:href="./assets/img/sprite.svg#textcb"></use>
+                            </svg>
+                        </div>
+                        <div class="row row--jcsb group-btn row--v-center">
+                            <button class="slider-btn slider-btn--prev tarif-prev">
+                                <svg>
+                                    <use xlink:href="./assets/img/sprite.svg#icon-slide-left"></use>
+                                </svg>
+                            </button>
+                            <button class="slider-btn slider-btn--next tarif-next">
+                                <svg>
+                                    <use xlink:href="./assets/img/sprite.svg#icon-slide-right"></use>
+                                </svg>
+                            </button>
+                            <a class="group-btn__more link-more" href="#">Подробнее о тарифах
+                                <svg class="link-more__icon">
+                                    <use xlink:href="./assets/img/sprite.svg#icon-more"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <svg class="shock__circle" width="854" height="851" viewBox="0 0 854 851" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path id="shock__circle"
+                      d="M853.5 425.5C853.5 660.219 662.551 850.5 427 850.5C191.449 850.5 0.5 660.219 0.5 425.5C0.5 190.781 191.449 0.5 427 0.5C662.551 0.5 853.5 190.781 853.5 425.5Z"
+                      stroke="white" stroke-opacity="0.2"/>
+            </svg>
+        </div><!-- end shock -->
+        <!-- begin wait -->
+        <div class="wait">
+            <div class="container">
+                <div class="wait__block">
+                    <svg class="wait__block-icon">
+                        <use xlink:href="./assets/img/sprite.svg#icon-dont-wait"></use>
+                    </svg>
+                    <h2 class="title wait__title">Не надо ждать!</h2>
+                    <p class="wait__text">
+                        Если у вас есть активные средства на счету у другого оператора связи и вы не хотите выжидать
+                        окончания оплаченных услуг прежде чем вернуться к WEBA, выход есть: мы перенесем ваш остаток (не
+                        более 1000 рублей) на новый счет, после предъявления личного кабинета вашего текущего провайдера
+
+                    </p>
+                    <svg class="wait__circle wait__circle--left" width="545" height="543" viewBox="0 0 545 543"
+                         fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="wait__circle-inner"
+                              d="M544.5 271.5C544.5 421.167 422.723 542.5 272.5 542.5C122.277 542.5 0.5 421.167 0.5 271.5C0.5 121.833 122.277 0.5 272.5 0.5C422.723 0.5 544.5 121.833 544.5 271.5Z"
+                              stroke="#DADEE3"/>
+                    </svg>
+                    <svg class="wait__circle wait__circle--center" width="545" height="543" viewBox="0 0 545 543"
+                         fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="wait__circle-inner"
+                              d="M544.5 271.5C544.5 421.167 422.723 542.5 272.5 542.5C122.277 542.5 0.5 421.167 0.5 271.5C0.5 121.833 122.277 0.5 272.5 0.5C422.723 0.5 544.5 121.833 544.5 271.5Z"
+                              stroke="#DADEE3"/>
+                    </svg>
+                    <svg class="wait__circle wait__circle--right" width="545" height="543" viewBox="0 0 545 543"
+                         fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="wait__circle-inner"
+                              d="M544.5 271.5C544.5 421.167 422.723 542.5 272.5 542.5C122.277 542.5 0.5 421.167 0.5 271.5C0.5 121.833 122.277 0.5 272.5 0.5C422.723 0.5 544.5 121.833 544.5 271.5Z"
+                              stroke="#DADEE3"/>
+                    </svg>
+                    <div class="slider wait__slider">
+                        <div class="slider__item">
+                            <div class="slider__wrap">
+                                <div class="slider__block">
+                                    <p class="slider__title">Станьте одним из клиентов Weba
+                                        <svg class="slider__title-icon">
+                                            <use xlink:href="./assets/img/sprite.svg#icon-quote"></use>
+                                        </svg>
+                                    </p>
+                                    <p class="slider__text">
+                                        Если у вас есть активные средства на счету у другого оператора связи и вы не
+                                        хотите выжидать окончания оплаченных услуг прежде чем вернуться к WEBA, выход
+                                        есть: мы перенесем ваш остаток
+
+                                    </p>
+                                    <p class="slider__name">Михаил Александрович</p>
+                                </div>
+                                <div class="slider__pic"><img src="./assets/img/man.png" alt="man"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="care wait__care">
+                    <h3 class="title care__title">Нам не все равно</h3>
+                    <div class="row care__row">
+                        <div class="care__item">
+                            <svg class="care__icon">
+                                <use xlink:href="./assets/img/sprite.svg#icon-heart"></use>
+                            </svg>
+                            <p class="care__head">Без внимания не оставим</p>
+                            <div class="care__text-wrap">
+                                <p class="care__text">
+                                    Мы всегда на связи! По возникшим вопросам и предложения связывайтесь любым удобным
+                                    способом: звонком, в чате на сайте, в Telegram
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="care__item">
+                            <svg class="care__icon">
+                                <use xlink:href="./assets/img/sprite.svg#icon-sertificate"></use>
+                            </svg>
+                            <p class="care__head">За качество отвечаем</p>
+                            <div class="care__text-wrap">
+                                <p class="care__text">
+                                    Используя первоклассное оборудование, мы обеспечиваем линк в 10 Гбит/сек до каждого
+                                    дома, распределяя до 1 Гбит/сек по абонентским портам
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="care__item">
+                            <svg class="care__icon">
+                                <use xlink:href="./assets/img/sprite.svg#icon-chat"></use>
+                            </svg>
+                            <p class="care__head">Расскажем, что знаем</p>
+                            <div class="care__text-wrap">
+                                <p class="care__text">
+                                    Делимся полезной информацией, выпуская статьи и видеоролики, гтовы напрямую ответить
+                                    на любой вопрос нашего профиля
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="care__item">
+                            <svg class="care__icon">
+                                <use xlink:href="./assets/img/sprite.svg#icon-team"></use>
+                            </svg>
+                            <p class="care__head">Нужно больше? Предоставим</p>
+                            <div class="care__text-wrap">
+                                <p class="care__text">
+                                    Оказываем услуги IP-телефонии и телевидения, ремонта и обслуживания компьютеров,
+                                    установки видеонаблюдения, домофонии
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wait__connect"><a class="btn btn--big" href="#">Подключиться по акции</a></div>
+                </div>
+            </div>
+        </div><!-- end wait -->
+        <!-- begin faq -->
+        <div class="faq">
+            <div class="faq__wrapper">
+                <div class="container">
+                    <div class="slogan">
+                        <p class="slogan__title">Часто задаваемые <span>вопросы</span></p>
+                        <svg class="slogan__ray">
+                            <use xlink:href="./assets/img/sprite.svg#icon-ray-xs"></use>
+                        </svg>
+                    </div>
+                    <div class="tabs faq__tabs">
+                        <div class="tabs__item">
+                            <p class="tabs__question" data-id="1">Как происходит подключение интернета?<span
+                                        class="tabs__arrow">
               <svg>
                 <use xlink:href="./assets/img/sprite.svg#icon-arrow-faq"></use>
               </svg></span></p>
-          <p class="tabs__answer" data-open="1">
-            Чтобы установить соединение, мы проводим кабель до вашего оборудования в квартире: до роутера, если нужна беспроводная связь , или непосредственно до используемых устройств (компютера, ноутбука, телефизора и т.д.). Настройка оборудования для корректного подключения к сети производится нами бесплатно
-            
-          </p>
-        </div>
-        <div class="tabs__item">
-          <p class="tabs__question" data-id="2">Как в дальнейшем можно оплачивать услуги?<span class="tabs__arrow">
+                            <p class="tabs__answer" data-open="1">
+                                Чтобы установить соединение, мы проводим кабель до вашего оборудования в квартире: до
+                                роутера, если нужна беспроводная связь , или непосредственно до используемых устройств
+                                (компютера, ноутбука, телефизора и т.д.). Настройка оборудования для корректного
+                                подключения к сети производится нами бесплатно
+
+                            </p>
+                        </div>
+                        <div class="tabs__item">
+                            <p class="tabs__question" data-id="2">Как в дальнейшем можно оплачивать услуги?<span
+                                        class="tabs__arrow">
               <svg>
                 <use xlink:href="./assets/img/sprite.svg#icon-arrow-faq"></use>
               </svg></span></p>
-          <p class="tabs__answer active" data-open="2">
-            Чтобы установить соединение, мы проводим кабель до вашего оборудования в квартире: до роутера, если нужна беспроводная связь
-            
-          </p>
-        </div>
-        <div class="tabs__item">
-          <p class="tabs__question" data-id="3">Можно ли воспользоваться услугой приостановки интернета во время акции?<span class="tabs__arrow">
+                            <p class="tabs__answer active" data-open="2">
+                                Чтобы установить соединение, мы проводим кабель до вашего оборудования в квартире: до
+                                роутера, если нужна беспроводная связь
+
+                            </p>
+                        </div>
+                        <div class="tabs__item">
+                            <p class="tabs__question" data-id="3">Можно ли воспользоваться услугой приостановки
+                                интернета во время акции?<span class="tabs__arrow">
               <svg>
                 <use xlink:href="./assets/img/sprite.svg#icon-arrow-faq"></use>
               </svg></span></p>
-          <p class="tabs__answer" data-open="3">
-            Чтобы установить соединение, мы проводим кабель до вашего оборудования в квартире: до роутера, если нужна беспроводная связь
-            
-            
-          </p>
-        </div>
-        <div class="tabs__item">
-          <p class="tabs__question" data-id="4">Можно ли подключиться по акции “Welcome back”, если я подключаюсь впервые?<span class="tabs__arrow">
+                            <p class="tabs__answer" data-open="3">
+                                Чтобы установить соединение, мы проводим кабель до вашего оборудования в квартире: до
+                                роутера, если нужна беспроводная связь
+
+
+                            </p>
+                        </div>
+                        <div class="tabs__item">
+                            <p class="tabs__question" data-id="4">Можно ли подключиться по акции “Welcome back”, если я
+                                подключаюсь впервые?<span class="tabs__arrow">
               <svg>
                 <use xlink:href="./assets/img/sprite.svg#icon-arrow-faq"></use>
               </svg></span></p>
-          <p class="tabs__answer" data-open="4">
-            Чтобы установить соединение, мы проводим кабель до вашего оборудования в квартире: до роутера, если нужна беспроводная связь
-            
-            
-            
-            
-            
-            
-            
-          </p>
+                            <p class="tabs__answer" data-open="4">
+                                Чтобы установить соединение, мы проводим кабель до вашего оборудования в квартире: до
+                                роутера, если нужна беспроводная связь
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <svg class="faq__question">
+                    <use xlink:href="./assets/img/sprite.svg#question"></use>
+                </svg>
+                <svg class="faq__ray">
+                    <use xlink:href="./assets/img/sprite.svg#icon-ray"></use>
+                </svg>
+            </div>
+        </div><!-- end faq -->
+    </main>
+    <!-- begin footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row row--jcsb footer__row">
+                <div class="footer__left">
+                    <p class="address">Россия, г. Санкт-Петербург, ул. Типанова 40</p>
+                </div>
+                <div class="footer__center row"><a class="mail" href="mailto:support@weba.ru">support@weba.ru</a><a
+                            class="phone" href="tel:+78126470044">+7(812) 647-00-44</a><a class="site"
+                                                                                          href="#">weba.ru</a></div>
+                <div class="footer__social">
+                    <ul class="social social--footer">
+                        <li class="social__item"><a class="social__link" href="#">
+                                <svg class="social__icon">
+                                    <use xlink:href="./assets/img/sprite.svg#icon-vk"></use>
+                                </svg>
+                            </a></li>
+                        <li class="social__item"><a class="social__link" href="#">
+                                <svg class="social__icon">
+                                    <use xlink:href="./assets/img/sprite.svg#icon-tg"></use>
+                                </svg>
+                            </a></li>
+                        <li class="social__item"><a class="social__link" href="#">
+                                <svg class="social__icon">
+                                    <use xlink:href="./assets/img/sprite.svg#icon-yt"></use>
+                                </svg>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="license">Лицензия №140776, №140777, №140778</p>
         </div>
-      </div>
+    </footer>
+    <div class="thanks">
+        <p class="thanks__title">Спасибо!</p>
+        <p class="thanks__text">Ваша заявка принята</p>
     </div>
-    <svg class="faq__question">
-      <use xlink:href="./assets/img/sprite.svg#question"></use>
-    </svg>
-    <svg class="faq__ray">
-      <use xlink:href="./assets/img/sprite.svg#icon-ray"></use>
-    </svg>
-  </div>
-</div><!-- end faq -->
-      </main>
-<!-- begin footer -->
-<footer class="footer">
-  <div class="container">
-    <div class="row row--jcsb footer__row">
-      <div class="footer__left">
-        <p class="address">Россия, г. Санкт-Петербург, ул. Типанова 40</p>
-      </div>
-      <div class="footer__center row"><a class="mail" href="mailto:support@weba.ru">support@weba.ru</a><a class="phone" href="tel:+78126470044">+7(812) 647-00-44</a><a class="site" href="#">weba.ru</a></div>
-      <div class="footer__social">
-        <ul class="social social--footer">
-          <li class="social__item"><a class="social__link" href="#">
-              <svg class="social__icon">
-                <use xlink:href="./assets/img/sprite.svg#icon-vk"></use>
-              </svg></a></li>
-          <li class="social__item"><a class="social__link" href="#">
-              <svg class="social__icon">
-                <use xlink:href="./assets/img/sprite.svg#icon-tg"></use>
-              </svg></a></li>
-          <li class="social__item"><a class="social__link" href="#">
-              <svg class="social__icon">
-                <use xlink:href="./assets/img/sprite.svg#icon-yt"></use>
-              </svg></a></li>
-        </ul>
-      </div>
-    </div>
-    <p class="license">Лицензия №140776, №140777, №140778</p>
-  </div>
-</footer>
-<div class="thanks">
-  <p class="thanks__title">Спасибо!</p>
-  <p class="thanks__text">Ваша заявка принята</p>
+    <!-- end footer -->
 </div>
-<!-- end footer -->
-    </div>
-  <script src="./assets/js/app.c0700418e5124b6370b2.js"></script></body>
+<script src="./assets/js/app.c0700418e5124b6370b2.js"></script>
+</body>
 </html>
