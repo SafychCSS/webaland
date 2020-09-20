@@ -1,0 +1,12 @@
+<svg width="100%" height="100%">
+<defs>
+    <pattern id="polka-dots" x="0" y="0" width="100" height="10" patternUnits="userSpaceOnUse">
+        <g opacity="0.3">
+            <path d="M2.27343 13.5068L2.27343 19.8877L0.511709 19.8877L0.511709 13.5068L2.27343 13.5068Z" fill="#F6F6F6"/>
+            <path d="M2.27343 0.981445L2.27343 7.3623L0.511708 7.3623L0.511708 0.981445L2.27343 0.981445Z" fill="#F6F6F6"/>
+        </g>
+    </pattern>
+</defs>
+
+<rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)" />
+</svg>
